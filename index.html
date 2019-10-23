@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="css/index.css">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on('click', function (event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function () {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $(".section-menu").on('click', function (event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+          
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            
+            scrollTop: $(hash).offset()
+          }, 1000, function () {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+  </script>
+</head>
+
+<body>
+    
+  
+  <section class="sliceOne" id="inicio">
+      <nav class="menu">
+          <div class="logo" data-aos="fade-down" id="logo">
+            <img src="images/logox2.svg" alt="">
+          </div>
+          <div class="content-sections " data-aos="fade-down" id="navbar">
+            <div class="section-menu"><a class="text-menu home-menu" href="#inicio"> INICIO</a></div>
+            <div class="section-menu"><a class="text-menu we-menu" href="#we">NOSOTROS</a></div>
+            <div class="section-menu "><a class="text-menu services-menu" href="#phrases">SERVICIOS</a></div>
+            <div class="section-menu "><a class="text-menu gallery-menu" href="#galery">GALERIA</a></div>      
+            <div class="section-menu"><a class="text-menu contact-menu" href="#contact">CONTACTO</a></div>
+      
+      
+      
+      
+            <div class="section-menu icons">
+              <img src="images/calendar.svg" alt="" data-aos="fade-up" data-aos-duration="3000">
+              <img src="images/ticket.svg" alt="" data-aos="fade-up" data-aos-duration="3000">
+            </div>
+          </div>
+        </nav>
+    <div class="text" data-aos="fade-right">
+
+      <p>
+        Manejamos la linea comercial y <a href="#">TACTO PIEL</a> al mejor precio
+        del mercado.
+      </p>
+      <a class="btn-cot" href="#miModal" data-aos="fade-up"> COTIZAR</a>
+    
+    </div>
+
+  </section>
+    
+
+  <div id="miModal" class="modal">
+    <div class="modal-contenido">
+      <a href="#">X</a>
+      <h2>Mi primer Modal</h2>
+      <p>formulario .</p>
+    </div>  
+  </div>
+
+
+  <section class="we" id="we">
+    <h3 data-aos="fade-right">¡NOSOTROS!</h3>
+    <p data-aos="fade-down" data-aos-anchor-placement="bottom-center">
+
+      En Cubre asientos la Bahia sabemos lo importante que es tu tiempo, por eso te ofrecemos
+      un servicio de calidad con rapidez para que tu auto luzca en perfecto estado todo el
+      tiempo en el menor tiempo posible y al mejor precio.
+    </p>
+    <div class="content-cards">
+      <div class="card" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <img src="images/sewing.svg" alt="">
+        <p>
+          cuales contenian pasajes de Lorem Ipsum, y más recientemente
+          con software de autoedición, como por ejemplo Aldus PageMaker,
+          el cual incluye versiones de Lorem Ipsum.
+        </p>
+      </div>
+      <div class="card" data-aos="fade-up" data-aos-duration="3000">
+        <img src="images/quality.svg" alt="">
+        <p>
+          cuales contenian pasajes de Lorem Ipsum, y más recientemente
+          con software de autoedición, como por ejemplo Aldus PageMaker,
+          el cual incluye versiones de Lorem Ipsum.
+        </p>
+      </div>
+      <div class="card" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <img src="images/group.svg" alt="">
+        <p>
+          cuales contenian pasajes de Lorem Ipsum, y más recientemente
+          con software de autoedición, como por ejemplo Aldus PageMaker,
+          el cual incluye versiones de Lorem Ipsum.
+        </p>
+      </div>
+      <div class="card" data-aos="fade-up" data-aos-duration="3000">
+        <img src="images/calendar-contact.svg" alt="">
+        <p>
+          cuales contenian pasajes de Lorem Ipsum, y más recientemente
+          con software de autoedición, como por ejemplo Aldus PageMaker,
+          el cual incluye versiones de Lorem Ipsum.
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  
+  <section class="prhases" id="phrases">
+    <p data-aos="zoom-in" class="frase">
+      Tu tiempo es limitado asi que te ofrecemos un servicio de
+      calidad y rapidez a excelentes precios.
+    </p>
+
+
+  </section>
+
+  <!--
+    <section class="modelos">
+        <h2>¡ MODELOS !</h2>
+        <div class="gallery">
+            <div class="card cardOne">
+                <img src="images/uno.jpg" alt="">
+            </div>
+            <div class="card carddos">
+                
+            </div>
+            <div class="card cardtres">
+                
+            </div>
+            <div class="card cardcuatro">
+                
+            </div>
+            <div class="card cardcinco">
+                
+            </div>
+        
+        </div>
+    </section>
+    <section class="prueba"></section>
+    <section class="contact">
+
+    </section>-->
+  
+    <section class="content-galery" id="galery">
+    <h2>¡ MODELOS !</h2>
+    <div class="gallery">
+      <figure class="gallery__item gallery__item--1" data-aos="fade-up">
+        <img src="images/as1.jpg" class="gallery__img" alt="Image 1">
+      </figure>
+      <figure class="gallery__item gallery__item--2" data-aos="fade-up">
+        <img src="images/as2.jpg" class="gallery__img" alt="Image 2">
+      </figure>
+      <figure class="gallery__item gallery__item--3" data-aos="fade-up">
+        <img src="images/as3.jpg" class="gallery__img" alt="Image 3">
+      </figure>
+      <figure class="gallery__item gallery__item--4" data-aos="fade-down">
+        <img src="images/as4.jpg" class="gallery__img" alt="Image 4">
+      </figure>
+      <figure class="gallery__item gallery__item--5" data-aos="fade-down">
+        <img src="images/as5.jpg" class="gallery__img" alt="Image 5">
+      </figure>
+      <figure class="gallery__item gallery__item--6" data-aos="fade-down" >
+        <img src="images/as6.jpg" class="gallery__img" alt="Image 6">
+      </figure>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+
+    <div class="content-propiedades">
+      <div class="content-text" data-aos="fade-up" data-aos-duration="3000">
+        <div class="content-datatext">
+
+
+
+
+
+        </div>
+
+      </div>
+
+
+      <div class="content-form" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <form action="">
+          <input placeholder="NOMBRE COMPLETO" type="text">
+          <input placeholder="CORREO ELECTRONICO" type="text">
+          <input placeholder="TELEFONO DE CONTACTO" type="text">
+          <textarea rows="4" cols="50" value="ESCRIBE UN MENSAJE">
+            </textarea>
+          <button class="btn-send">ENVIAR</button>
+        </form>
+      </div>
+
+
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="copryright">
+      <p>Copyright © All rights reserved | 322-274-1237 </p>
+      <div class="icons">
+
+
+
+      </div>
+      <div class="icons wp">
+
+      </div>
+
+
+
+    </div>
+
+    <div class="menu-footer">
+      <a href="#">INICIO </a>
+      <a href="#" class="text-contact">CONTACTO</a>
+      <a href="#">NOSOTROS</a>
+      <a href="#">SERVICIOS</a>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 2000,
+    });
+
+  </script>
+
+  <script>
+    $(window).scroll(function () {
+      var sc = $(window).scrollTop()
+      if (sc > 250) {
+        $("#navbar").addClass("navbar-scroll");
+        $(".logo").addClass("logo-scroll");
+        $(".content-sections").addClass("menu-scroll");
+        $(".text-menu").addClass("text-scroll");
+        $(".section-menu").addClass("section-menuscroll");
+
+
+      }
+      else {
+        $("#navbar").removeClass("navbar-scroll");
+        $(".logo").removeClass("logo-scroll");
+        $(".content-sections").removeClass("menu-scroll");
+        $(".text-menu").removeClass("text-scroll");
+        $(".section-menu").removeClass("section-menuscroll");
+
+
+      }
+    });
+  </script>
+
+
+</body>
+
+</html>   

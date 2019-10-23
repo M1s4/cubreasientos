@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_1" data-name="Rectángulo 1" width="50" height="50" transform="translate(193 206)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="home-icon" transform="translate(-193 -206)" clip-path="url(#clip-path)">
+    <g id="_001-home" data-name="001-home" transform="translate(193 206)">
+      <g id="Grupo_1" data-name="Grupo 1">
+        <path id="Trazado_1" data-name="Trazado 1" d="M25,13.137,7.168,27.838a.421.421,0,0,1-.016.093.424.424,0,0,0-.016.093V42.909a2.014,2.014,0,0,0,1.985,1.985H21.03V32.986h7.94V44.9H40.879a2.016,2.016,0,0,0,1.986-1.986V28.023a.436.436,0,0,0-.031-.185Z" fill="#fff"/>
+        <path id="Trazado_2" data-name="Trazado 2" d="M49.655,24.488l-6.791-5.644V6.19a.956.956,0,0,0-.993-.992H35.917a.955.955,0,0,0-.992.992v6.048L27.357,5.911a3.847,3.847,0,0,0-4.713,0L.345,24.488A.9.9,0,0,0,0,25.155a1,1,0,0,0,.217.729l1.923,2.3a1.058,1.058,0,0,0,.651.341,1.153,1.153,0,0,0,.745-.217L25,10.408,46.461,28.3a.956.956,0,0,0,.651.216h.093a1.059,1.059,0,0,0,.651-.341l1.923-2.295a1,1,0,0,0,.216-.73A.9.9,0,0,0,49.655,24.488Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_19" data-name="Rectángulo 19" width="35" height="35" transform="translate(551 4120)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectángulo_2" data-name="Rectángulo 2" width="35" height="35" transform="translate(290.5 84.7)" fill="#0d0303"/>
+    </clipPath>
+  </defs>
+  <g id="fb-footer" transform="translate(-551 -4120)" clip-path="url(#clip-path)">
+    <g id="fb-black" transform="translate(260.5 4035.3)" clip-path="url(#clip-path-2)">
+      <g id="facebook-icon-transparent" transform="translate(290.5 84.7)">
+        <circle id="Elipse_1" data-name="Elipse 1" cx="17.5" cy="17.5" r="17.5" fill="#0d0303"/>
+        <path id="Facebook" d="M102.439,5.085V8.7h-2.077v4.419h2.08V26.25h4.273V13.119h2.87s.269-2.119.4-4.436h-3.251V5.66A1.145,1.145,0,0,1,107.66,4.6h2.328V0H106.82C102.334,0,102.439,4.424,102.439,5.085Z" transform="translate(-87.732 4.374)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
